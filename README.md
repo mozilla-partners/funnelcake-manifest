@@ -1,6 +1,8 @@
 Funnelcake repacks
+==================
 
-= Setup
+Setup
+-----
 
 ```
 mkdir fcrepack && cd fcrepack
@@ -10,11 +12,13 @@ chmod u+x ./repo
 ./repo sync
 ```
 
-= Prereqs
+Prereqs
+-------
 
 There may be additional software to install prior to creating repacks
 
-= Build
+Build
+-----
 
 This will build unsigned repacks that you could use to do an initial QA or verify your funnelcake config.
 

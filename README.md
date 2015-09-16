@@ -10,4 +10,15 @@ chmod u+x ./repo
 ./repo sync
 ```
 
-# funnelcake-manifest
+= Prereqs
+
+There may be additional software to install prior to creating repacks
+
+= Build
+
+This will build unsigned repacks that you could use to do an initial QA or verify your funnelcake config.
+
+```
+cd scripts
+python partner-repack.py -v 41.0
+```

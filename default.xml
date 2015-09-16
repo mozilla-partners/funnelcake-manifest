@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<manifest>
+  <remote fetch="git@github.com:mozilla-partners/" name="mozilla-partners"/>
+  <remote fetch="git@github.com:mozilla/" name="mozilla"/>
+  
+  <project name="repack-scripts" path="scripts" remote="mozilla-partners" revision="master"/>
+  <project name="build-tools" path="scripts/tools" remote="mozilla" revision="master"/>
+  <project name="funnelcake" path="partners/funnelcake" remote="mozilla-partners" revision="master"/>
+</manifest>
